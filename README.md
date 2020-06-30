@@ -1,5 +1,11 @@
 # text-mining-project
-Project in Text Mining course (TDDE16) at Linköping University winter 2019/2020
+Project in Text Mining course (TDDE16) at Linköping University winter 2019/2020.
+
+## Word Embedding Bias
+Word embeddings is a technique in NLP and text mining to represent words in order to be able to compare words based on similarity. The word embeddings are trained on large data sets with text written by humans. Therefore, the bias we have and include in our writings will be transferred to the word embeddings. 
+
+This project looks at what biases there are in the swedish word embeddings [*Swectors*](https://www.ida.liu.se/divisions/hcs/nlplab/swectors/) based on text from Göteborgsposten. They are also compared with another set of word embeddings that are trained on data from two swedish discussion forums, *Familjeliv* and *Flashback*. The data is obtained from (Språkbanken)[https://spraakbanken.gu.se/swe].
+
 
 ## Installing
 1. Install Python 3.6 or greater, 64 bit version.
