@@ -43,11 +43,11 @@ def xml_to_text(input_file, output_file):
 
 
 # Files to read:
-# flashback-livsstil.xml
-# familjeliv-allmanna-noje.xml
-# familjeliv-svartattfabarn.xml
-# flashback-mat.xml
-# flashback-ovrigt.xml
-# https://spraakbanken.gu.se/swe/resurs/familjeliv-allmanna-kropp
-# https://spraakbanken.gu.se/swe/resurs/familjeliv-allmanna-hushem
-xml_to_text("flashback-ovrigt.xml", "sentences.txt")
+#xml_to_text("../data/flashback/flashback-ekonomi.xml", "../data/flashback/flashback-ekonomi.txt")
+#xml_to_text("../data/flashback/flashback-hem.xml", "../data/flashback/flashback-hem.txt")
+#xml_to_text("../data/flashback/flashback-kultur.xml", "../data/flashback/flashback-kultur.txt")
+
+xml_to_text("../data/familjeliv/familjeliv-allmanna-ekonomi.xml", "../data/familjeliv/familjeliv-allmanna-ekonomi.txt")
+xml_to_text("../data/familjeliv/familjeliv-allmanna-fritid.xml", "../data/familjeliv/familjeliv-allmanna-fritid.txt")
+xml_to_text("../data/familjeliv/familjeliv-allmanna-hushem.xml", "../data/familjeliv/familjeliv-allmanna-hushem.txt")
+xml_to_text("../data/familjeliv/familjeliv-allmanna-noje.xml", "../data/familjeliv/familjeliv-allmanna-noje.txt")
